@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Expert sewer line repair in Frisco, TX. Fast, reliable service with upfront pricing. Call today for emergency repairs!">
+    <title>Frisco Sewer Line Repair | Professional Services</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#FF5A5F',    /* Coral Red */
+                        secondary: '#1A1A1A',  /* Dark Gray */
+                        accent: '#FFD166',     /* Warm Yellow */
+                        surface: '#262626',    /* Lighter Gray for cards */
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    borderRadius: {
+                        'xl': '1rem',
+                        '2xl': '1rem',
+                    },
+                    boxShadow: {
+                        'glow': '0 10px 40px rgba(0,0,0,0.1)',
+                        'glow-primary': '0 10px 40px rgba(255, 90, 95, 0.2)',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #1A1A1A;
+            color: #ffffff;
+        }
+        
+        .gradient-text {
+            background-clip: text;
+            -webkit-background-clip: text;
+            /* Using solid color for better contrast in dark mode unless specified otherwise */
+            color: #ffffff; /* Fallback */
+        }
+
+        .hero-pattern {
+            background-color: #1A1A1A;
+            background-image: radial-gradient(circle at 50% 50%, #262626 1px, transparent 1px);
+            background-size: 40px 40px;
+        }
+
+        .service-card-link {
+            display: block;
+            text-decoration: none;
+            color: inherit;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-primary selection:text-white overflow-x-hidden">
+
+    <!-- Header -->
+    <header class="fixed w-full z-50 bg-[#1A1A1A]/95 backdrop-blur-sm border-b border-gray-800 transition-all duration-300">
+        <nav class="max-w-7xl mx-auto px-6 md:px-12 h-20 flex items-center justify-between">
+            <!-- Logo -->
+            <a href="index.html" class="text-2xl font-bold tracking-tight text-white flex items-center gap-2 group">
+                <span class="text-primary">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-8 h-8 group-hover:rotate-12 transition-transform duration-300">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.703-.127 1.246.14 2.266 1.033 2.533 2.304.296 1.413-.538 2.809-1.875 3.197M17.03 11.083c-1.353.473-2.678 1.488-3.09 2.923M17.415 8.441l-6.19-5.13a2.158 2.158 0 00-3.14.39l-2.071 2.513a2.159 2.159 0 00.39 3.138l5.46 4.524M11.42 15.17l-1.396 1.696" />
+                    </svg>
+                </span>
+                Plano Plumbing
+            </a>
+
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex items-center space-x-10">
+                <a href="index.html#services" class="text-gray-300 hover:text-primary font-medium transition-colors duration-300 text-sm tracking-wide">SERVICES</a>
+                <a href="index.html#about" class="text-gray-300 hover:text-primary font-medium transition-colors duration-300 text-sm tracking-wide">ABOUT</a>
+                <a href="index.html#reviews" class="text-gray-300 hover:text-primary font-medium transition-colors duration-300 text-sm tracking-wide">REVIEWS</a>
+                <a href="frisco-sewer-line-repair.html" class="text-gray-300 hover:text-primary font-medium transition-colors duration-300 text-sm tracking-wide">FRISCO SEWER LINE REPAIR</a>
+                <a href="index.html#faq" class="text-gray-300 hover:text-primary font-medium transition-colors duration-300 text-sm tracking-wide">FAQ</a>
+                <a href="contact.html" class="bg-primary hover:bg-red-500 text-white px-6 py-2.5 rounded-full font-semibold transition-all duration-300 hover:shadow-lg hover:shadow-primary/30 transform hover:scale-105 text-sm">
+                    Contact Us
+                </a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button class="md:hidden mobile-menu-button text-gray-300 hover:text-white p-2 focus:outline-none transition-colors duration-200">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </nav>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu hidden md:hidden bg-[#1A1A1A] border-t border-gray-800 absolute w-full left-0 top-20 shadow-2xl">
+            <div class="flex flex-col px-6 py-8 space-y-6 text-center">
+                <a href="index.html#services" class="text-lg font-medium text-gray-300 hover:text-primary transition-colors">Services</a>
+                <a href="index.html#about" class="text-lg font-medium text-gray-300 hover:text-primary transition-colors">About</a>
+                <a href="index.html#reviews" class="text-lg font-medium text-gray-300 hover:text-primary transition-colors">Reviews</a>
+                <a href="frisco-sewer-line-repair.html" class="text-lg font-medium text-gray-300 hover:text-primary transition-colors">Frisco Sewer Line Repair</a>
+                <a href="index.html#faq" class="text-lg font-medium text-gray-300 hover:text-primary transition-colors">FAQ</a>
+                <a href="contact.html" class="text-lg font-bold text-primary hover:text-white transition-colors">Contact Us</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden hero-pattern">
+        <!-- Abstract Decoration -->
+        <div class="absolute top-20 right-0 -mr-20 w-96 h-96 bg-primary opacity-10 blur-3xl rounded-full pointer-events-none"></div>
+        <div class="absolute bottom-0 left-0 -ml-20 w-80 h-80 bg-accent opacity-5 blur-3xl rounded-full pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
+            <div class="flex flex-col lg:flex-row items-center gap-16">
+                <!-- Content -->
+                <div class="lg:w-1/2 text-center lg:text-left space-y-8">
+                    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-surface border border-gray-700 w-fit mx-auto lg:mx-0">
+                        <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
+                        <span class="text-xs font-semibold tracking-wide text-gray-300 uppercase">Available 24/7 in Frisco, TX</span>
+                    </div>
+                    
+                    <h1 class="text-4xl md:text-6xl font-bold leading-tight tracking-tight text-white">
+                        Frisco Sewer Line <br>
+                        <span class="text-primary">Repair Experts</span>
+                    </h1>
+                    
+                    <p class="text-lg md:text-xl text-gray-400 font-normal leading-relaxed max-w-2xl mx-auto lg:mx-0">
+                        Professional sewer line repair services in Frisco with fast response times, transparent pricing, and guaranteed solutions for your peace of mind.
+                    </p>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">
+                        <a href="https://222.com" class="bg-primary hover:bg-red-500 text-white text-lg font-semibold px-10 py-4 rounded-full transition-all duration-300 shadow-glow-primary hover:shadow-xl hover:scale-105 flex items-center justify-center gap-2">
+                            <span>Schedule Service</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                            </svg>
+                        </a>
+                        <a href="#services" class="bg-surface hover:bg-gray-700 text-white text-lg font-semibold px-10 py-4 rounded-full border border-gray-700 transition-all duration-300 hover:shadow-lg hover:scale-105">
+                            Learn More
+                        </a>
+                    </div>
+                    
+                    <div class="pt-8 flex items-center justify-center lg:justify-start gap-8 text-gray-500 grayscale opacity-70">
+                         <!-- Simplified trust indicators -->
+                        <div class="flex items-center gap-2"><i class="fas fa-shield-alt"></i> Licensed</div>
+                        <div class="flex items-center gap-2"><i class="fas fa-award"></i> Insured</div>
+                        <div class="flex items-center gap-2"><i class="fas fa-check-circle"></i> Bonded</div>
+                    </div>
+                </div>
+                
+                <!-- Visual/Image Area -->
+                <div class="lg:w-1/2 relative">
+                    <div class="relative rounded-2xl overflow-hidden shadow-2xl border border-gray-800 bg-[#1A1A1A]">
+                        <!-- Abstract representation since no product image provided -->
+                        <div class="bg-gradient-to-tr from-surface to-gray-800 p-8 md:p-12 min-h-[400px] flex items-center justify-center">
+                             <div class="text-center space-y-6">
+                                <div class="w-24 h-24 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-6 text-primary">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
+                                      <path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.703-.127 1.246.14 2.266 1.033 2.533 2.304.296 1.413-.538 2.809-1.875 3.197M17.03 11.083c-1.353.473-2.678 1.488-3.09 2.923M17.415 8.441l-6.19-5.13a2.158 2.158 0 00-3.14.39l-2.071 2.513a2.159 2.159 0 00.39 3.138l5.46 4.524M11.42 15.17l-1.396 1.696" />
+                                    </svg>
+                                </div>
+                                <h3 class="text-2xl font-bold text-white">Frisco Specialists</h3>
+                                <div class="space-y-3 text-left max-w-xs mx-auto">
+                                    <div class="flex items-center gap-3 text-gray-300">
+                                        <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                        <span>Same-Day Service</span>
+                                    </div>
+                                    <div class="flex items-center gap-3 text-gray-300">
+                                        <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                        <span>Advanced Technology</span>
+                                    </div>
+                                    <div class="flex items-center gap-3 text-gray-300">
+                                        <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                        <span>Upfront Pricing</span>
+                                    </div>
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 md:py-32 bg-[#1A1A1A] relative">
+        <div class="max-w-7xl mx-auto px-6 md:px-12">
+            <div class="text-center max-w-3xl mx-auto mb-20">
+                <h2 class="text-3xl md:text-5xl font-bold text-white mb-6">Our Frisco Sewer Services</h2>
+                <p class="text-gray-400 text-lg">Comprehensive sewer line solutions tailored to Frisco's unique infrastructure and climate challenges.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="group bg-surface p-8 rounded-2xl border border-gray-800 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
+                    <div class="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4">Emergency Repairs</h3>
+                    <p class="text-gray-400 leading-relaxed">
+                        Sewer backups and emergencies don't follow business hours. Our Frisco team responds 24/7 to tackle urgent issues and prevent costly water damage to your property.
+                    </p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="group bg-surface p-8 rounded-2xl border border-gray-800 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
+                    <div class="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09l-.813 2.846zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.035-.259a3.375 3.375 0 002.456-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4">Camera Inspections</h3>
+                    <p class="text-gray-400 leading-relaxed">
+                        State-of-the-art video inspection technology allows us to see exactly what's happening inside your sewer line. Accurate diagnosis means precise, cost-effective repairs.
+                    </p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="group bg-surface p-8 rounded-2xl border border-gray-800 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
+                    <div class="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 12.75h.008v.008H9.75V12.75zm0 2.25h.008v.008H9.75v-.008zm0 2.25h.008v.008H9.75v-.008zm0 2.25h.008v.008H9.75v-.008zM12 12.75c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v6.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125v-6.75zM13.5 13.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008v-.008zM16.125 12c.621 0 1.125.504 1.125 1.125v6.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125v-6.75C12.75 12.504 13.254 12 13.875 12h2.25z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4">Trenchless Repair</h3>
+                    <p class="text-gray-400 leading-relaxed">
+                        Minimize landscape disruption with our trenchless pipe lining and bursting technology. Modern solutions that fix your sewer line without extensive excavation.
+                    </p>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="group bg-surface p-8 rounded-2xl border border-gray-800 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
+                    <div class="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-9v9m4.06-4.06l1.591 1.591M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4">Root Removal</h3>
+                    <p class="text-gray-400 leading-relaxed">
+                        Tree roots are a common issue in Frisco. We safely remove invasive roots and treat lines to prevent future intrusion, protecting your investment long-term.
+                    </p>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="group bg-surface p-8 rounded-2xl border border-gray-800 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
+                    <div class="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-3.75-8.25h7.5M12 3c-4.97 0-9 2.686-9 6v6c0 3.314 4.03 6 9 6s9-2.686 9-6v-6c0-3.314-4.03-6-9-6z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4">Line Replacement</h3>
+                    <p class="text-gray-400 leading-relaxed">
+                        When repair isn't an option, we provide complete sewer line replacement with modern materials and expert installation for decades of reliable service.
+                    </p>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="group bg-surface p-8 rounded-2xl border border-gray-800 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
+                    <div class="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.045-.75.045m.75-.045v5.714c0 .592.223 1.161.659 1.591L9.75 15m0-6.646l.75.75m0 0l.75-.75m-.75.75l-.75-.75m.75.75L15 9.75m-6 3l6-6m6 6l-6 6m0-6l6 6m-6-6l-6-6" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4">Leak Detection</h3>
+                    <p class="text-gray-400 leading-relaxed">
+                        Pinpoint sewer line leaks before they become major problems. Our advanced detection methods save you money by identifying issues early and preventing property damage.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Common Problems Section -->
+    <section class="py-20 md:py-32 bg-surface">
+        <div class="max-w-7xl mx-auto px-6 md:px-12">
+            <div class="text-center max-w-3xl mx-auto mb-20">
+                <h2 class="text-3xl md:text-5xl font-bold text-white mb-6">Common Sewer Problems in Frisco</h2>
+                <p class="text-gray-400 text-lg">Frisco's unique soil composition and climate create specific challenges for sewer systems. Here's what we commonly encounter:</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Problem 1 -->
+                <div class="flex gap-6 p-6 rounded-xl bg-[#1A1A1A] border border-gray-800 hover:border-primary/30 transition-all duration-300">
+                    <div class="flex-shrink-0">
+                        <div class="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center text-primary text-xl">
+                            <i class="fas fa-tree"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold text-white mb-2">Tree Root Intrusion</h3>
+                        <p class="text-gray-400">Frisco's mature landscaping means tree roots seeking moisture frequently invade sewer lines, causing blockages and structural damage.</p>
+                    </div>
+                </div>
+
+                <!-- Problem 2 -->
+                <div class="flex gap-6 p-6 rounded-xl bg-[#1A1A1A] border border-gray-800 hover:border-primary/30 transition-all duration-300">
+                    <div class="flex-shrink-0">
+                        <div class="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center text-primary text-xl">
+                            <i class="fas fa-water"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold text-white mb-2">Clay Soil Settling</h3>
+                        <p class="text-gray-400">Frisco's clay-heavy soil can shift and settle over time, causing sewer pipes to crack, collapse, or misalign at joints.</p>
+                    </div>
+                </div>
+
+                <!-- Problem 3 -->
+                <div class="flex gap-6 p-6 rounded-xl bg-[#1A1A1A] border border-gray-800 hover:border-primary/30 transition-all duration-300">
+                    <div class="flex-shrink-0">
+                        <div class="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center text-primary text-xl">
+                            <i class="fas fa-pipe"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold text-white mb-2">Aging Pipes</h3>
+                        <p class="text-gray-400">Older clay and cast iron pipes in established Frisco neighborhoods deteriorate over time, leading to corrosion and breaks.</p>
+                    </div>
+                </div>
+
+                <!-- Problem 4 -->
+                <div class="flex gap-6 p-6 rounded-xl bg-[#1A1A1A] border border-gray-800 hover:border-primary/30 transition-all duration-300">
+                    <div class="flex-shrink-0">
+                        <div class="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center text-primary text-xl">
+                            <i class="fas fa-clog"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold text-white mb-2">Blockages</h3>
+                        <p class="text-gray-400">Grease buildup, debris, and improper flushing create stubborn blockages that back up into your home or yard.</p>
+                    </div>
+                </div>
+
+                <!-- Problem 5 -->
+                <div class="flex gap-6 p-6 rounded-xl bg-[#1A1A1A] border border-gray-800 hover:border-primary/30 transition-all duration-300">
+                    <div class="flex-shrink-0">
+                        <div class="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center text-primary text-xl">
+                            <i class="fas fa-droplet"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold text-white mb-2">Slow Drains</h3>
+                        <p class="text-gray-400">Multiple fixtures draining slowly throughout your home often indicates a sewer line issue rather than individual drain problems.</p>
+                    </div>
+                </div>
+
+                <!-- Problem 6 -->
+                <div class="flex gap-6 p-6 rounded-xl bg-[#1A1A1A] border border-gray-800 hover:border-primary/30 transition-all duration-300">
+                    <div class="flex-shrink-0">
+                        <div class="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center text-primary text-xl">
+                            <i class="fas fa-wind"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold text-white mb-2">Foul Odors</h3>
+                        <p class="text-gray-400">Persistent sewage smells in your yard or near drains indicate cracks or breaks in your sewer line allowing gas escape.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Repair Process Section -->
+    <section class="py-20 md:py-32 bg-[#1A1A1A]">
+        <div class="max-w-7xl mx-auto px-6 md:px-12">
+            <div class="text-center max-w-3xl mx-auto mb-20">
+                <h2 class="text-3xl md:text-5xl font-bold text-white mb-6">Our Repair Process</h2>
+                <p class="text-gray-400 text-lg">We follow a systematic approach to diagnose and fix your sewer line issues efficiently and effectively.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Step 1 -->
+                <div class="relative">
+                    <div class="bg-surface p-8 rounded-2xl border border-gray-800 text-center h-full flex flex-col justify-between">
+                        <div>
+                            <div class="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center text-primary text-2xl font-bold mx-auto mb-6">1</div>
+                            <h3 class="text-xl font-bold text-white mb-4">Initial Assessment</h3>
+                            <p class="text-gray-400">We listen to your concerns and ask detailed questions about symptoms to understand the scope of the problem.</p>
+                        </div>
+                    </div>
+                    <div class="hidden lg:block absolute top-1/2 -right-4 w-8 h-1 bg-primary/30"></div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="relative">
+                    <div class="bg-surface p-8 rounded-2xl border border-gray-800 text-center h-full flex flex-col justify-between">
+                        <div>
+                            <div class="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center text-primary text-2xl font-bold mx-auto mb-6">2</div>
+                            <h3 class="text-xl font-bold text-white mb-4">Camera Inspection</h3>
+                            <p class="text-gray-400">We insert a high-definition camera to visualize the interior of your sewer line and identify the exact problem.</p>
+                        </div>
+                    </div>
+                    <div class="hidden lg:block absolute top-1/2 -right-4 w-8 h-1 bg-primary/30"></div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="relative">
+                    <div class="bg-surface p-8 rounded-2xl border border-gray-800 text-center h-full flex flex-col justify-between">
+                        <div>
+                            <div class="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center text-primary text-2xl font-bold mx-auto mb-6">3</div>
+                            <h3 class="text-xl font-bold text-white mb-4">Detailed Estimate</h3>
+                            <p class="text-gray-400">Based on findings, we provide an upfront, itemized estimate with no hidden fees or surprises.</p>
+                        </div>
+                    </div>
+                    <div class="hidden lg:block absolute top-1/2 -right-4 w-8 h-1 bg-primary/30"></div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="relative">
+                    <div class="bg-surface p-8 rounded-2xl border border-gray-800 text-center h-full flex flex-col justify-between">
+                        <div>
+                            <div class="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center text-primary text-2xl font-bold mx-auto mb-6">4</div>
+                            <h3 class="text-xl font-bold text-white mb-4">Expert Repair</h3>
+                            <p class="text-gray-400">We execute the repair using proven methods and modern technology, then verify success with follow-up inspection.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Area Section -->
+    <section class="py-20 md:py-32 bg-surface">
+        <div class="max-w-7xl mx-auto px-6 md:px-12">
+            <div class="text-center max-w-3xl mx-auto mb-20">
+                <h2 class="text-3xl md:text-5xl font-bold text-white mb-6">Serving All of Frisco</h2>
+                <p class="text-gray-400 text-lg">We provide comprehensive sewer line repair services throughout Frisco and surrounding areas with same-day and emergency availability.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <div class="flex items-start gap-4">
+                        <div class="w-8 h-8 rounded-full bg-accent/20 flex items-center justify-center text-accent flex-shrink-0 mt-1">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></path></svg>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold text-white">North Frisco</h3>
+                            <p class="text-gray-400">Including Starwood, Heritage, and newer developments</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-4">
+                        <div class="w-8 h-8 rounded-full bg-accent/20 flex items-center justify-center text-accent flex-shrink-0 mt-1">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></path></svg>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold text-white">Downtown Frisco</h3>
+                            <p class="text-gray-400">Historic neighborhoods and commercial districts</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-4">
+                        <div class="w-8 h-8 rounded-full bg-accent/20 flex items-center justify-center text-accent flex-shrink-0 mt-1">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></path></svg>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold text-white">South Frisco</h3>
+                            <p class="text-gray-400">Residential areas and established communities</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-4">
+                        <div class="w-8 h-8 rounded-full bg-accent/20 flex items-center justify-center text-accent flex-shrink-0 mt-1">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></path></svg>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold text-white">Commercial Properties</h3>
+                            <p class="text-gray-400">Shopping centers, office buildings, and industrial facilities</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative">
+                    <div class="absolute -inset-4 bg-primary/10 rounded-2xl blur-lg"></div>
+                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Frisco Service Area" class="relative rounded-2xl shadow-2xl grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-[1.02]">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emergency Availability Section -->
+    <section class="py-20 md:py-32 bg-[#1A1A1A]">
+        <div class="max-w-4xl mx-auto px-6 md:px-12 text-center">
+            <h2 class="text-3xl md:text-5xl font-bold text-white mb-12">Available When You Need Us Most</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+                <!-- Availability 1 -->
+                <div class="bg-surface p-8 rounded-2xl border border-gray-800">
+                    <div class="text-4xl font-bold text-primary mb-4">24/7</div>
+                    <h3 class="text-xl font-bold text-white mb-4">Emergency Service</h3>
+                    <p class="text-gray-400">Sewer emergencies happen at inconvenient times. We're available around the clock, every day, to respond to urgent issues in Frisco.</p>
+                </div>
+
+                <!-- Availability 2 -->
+                <div class="bg-surface p-8 rounded-2xl border border-gray-800">
+                    <div class="text-4xl font-bold text-primary mb-4">Same Day</div>
+                    <h3 class="text-xl font-bold text-white mb-4">Service Scheduling</h3>
+                    <p class="text-gray-400">For non-emergency issues, we often schedule same-day service so you don't have to wait days for relief and repairs.</p>
+                </div>
+
+                <!-- Availability 3 -->
+                <div class="bg-surface p-8 rounded-2xl border border-gray-800">
+                    <div class="text-4xl font-bold text-primary mb-4">Rapid</div>
+                    <h3 class="text-xl font-bold text-white mb-4">Response Times</h3>
+                    <p class="text-gray-400">We prioritize quick arrival to minimize damage and disruption. Our local team typically arrives within 30-60 minutes of your call.</p>
+                </div>
+            </div>
+
+            <div class="bg-primary/10 border border-primary/30 rounded-2xl p-12">
+                <h3 class="text-2xl font-bold text-white mb-4">Experiencing a Sewer Emergency?</h3>
+                <p class="text-gray-300 mb-8 text-lg">Don't wait. Call us immediately for urgent assistance. Our experienced team is ready to help.</p>
+                <a href="https://222.com" class="inline-block bg-primary hover:bg-red-500 text-white font-bold px-10 py-4 rounded-full transition-all duration-300 hover:shadow-2xl hover:scale-105">
+                    Call Now for Emergency Service
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 md:py-32 bg-surface">
+        <div class="max-w-7xl mx-auto px-6 md:px-12">
+            <h2 class="text-3xl md:text-5xl font-bold text-white text-center mb-20">What Frisco Homeowners Say</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-[#1A1A1A] p-8 rounded-2xl border border-gray-800 relative hover:border-primary/30 transition-all duration-300">
+                    <i class="fas fa-quote-right absolute top-8 right-8 text-4xl text-gray-700 opacity-30"></i>
+                    <div class="flex items-center mb-6">
+                        <div class="text-accent flex gap-1">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 text-lg mb-6 leading-relaxed">"Our sewer backed up into the basement on a Saturday. We called Plano Plumbing and they were here in 45 minutes. Professional, efficient, and they fixed the problem without breaking the bank. Highly recommend!"</p>
+                    <div class="flex items-center">
+                        <div>
+                            <h4 class="font-bold text-white">Jennifer Martinez</h4>
+                            <p class="text-sm text-gray-500">Frisco Homeowner</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-[#1A1A1A] p-8 rounded-2xl border border-gray-800 relative hover:border-primary/30 transition-all duration-300">
+                    <i class="fas fa-quote-right absolute top-8 right-8 text-4xl text-gray-700 opacity-30"></i>
+                    <div class="flex items-center mb-6">
+                        <div class="text-accent flex gap-1">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 text-lg mb-6 leading-relaxed">"The trenchless repair option saved my driveway. I was dreading the cost and hassle of digging up my front yard. They explained everything clearly and the work was done in one day."</p>
+                    <div class="flex items-center">
+                        <div>
+                            <h4 class="font-bold text-white">Robert Thompson</h4>
+                            <p class="text-sm text-gray-500">Frisco Business Owner</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-[#1A1A1A] p-8 rounded-2xl border border-gray-800 relative hover:border-primary/30 transition-all duration-300">
+                    <i class="fas fa-quote-right absolute top-8 right-8 text-4xl text-gray-700 opacity-30"></i>
+                    <div class="flex items-center mb-6">
+                        <div class="text-accent flex gap-1">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 text-lg mb-6 leading-relaxed">"They identified tree root intrusion that was causing my slow drains. The camera inspection was eye-opening. They removed the roots and treated the line to prevent future problems. Great service!"</p>
+                    <div class="flex items-center">
+                        <div>
+                            <h4 class="font-bold text-white">Lisa Anderson</h4>
+                            <p class="text-sm text-gray-500">Frisco Resident</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="bg-[#1A1A1A] p-8 rounded-2xl border border-gray-800 relative hover:border-primary/30 transition-all duration-300">
+                    <i class="fas fa-quote-right absolute top-8 right-8 text-4xl text-gray-700 opacity-30"></i>
+                    <div class="flex items-center mb-6">
+                        <div class="text-accent flex gap-1">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 text-lg mb-6 leading-relaxed">"Transparent pricing, no hidden fees, and they stood behind their work with a warranty. This is exactly the kind of service company you want handling your home's critical systems."</p>
+                    <div class="flex items-center">
+                        <div>
+                            <h4 class="font-bold text-white">David Lee</h4>
+                            <p class="text-sm text-gray-500">Frisco Property Manager</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="py-20 md:py-32 bg-[#1A1A1A]">
+        <div class="max-w-7xl mx-auto px-6 md:px-12">
+            <div class="text-center max-w-3xl mx-auto mb-20">
+                <h2 class="text-3xl md:text-5xl font-bold text-white mb-6">Transparent Pricing</h2>
+                <p class="text-gray-400 text-lg">We believe in honest, upfront pricing with no surprises. Here's what you can expect:</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Pricing 1 -->
+                <div class="bg-surface p-8 rounded-2xl border border-gray-800 hover:border-primary/50 transition-all duration-300">
+                    <h3 class="text-2xl font-bold text-white mb-4">Camera Inspection</h3>
+                    <p class="text-4xl font-bold text-primary mb-4">$150-250</p>
+                    <ul class="space-y-3 text-gray-400 mb-8">
+                        <li class="flex items-center gap-2">
+                            <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            High-definition video
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            Detailed report
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            Waived if you hire us
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Pricing 2 -->
+                <div class="bg-surface p-8 rounded-2xl border border-primary/50 hover:border-primary transition-all duration-300 relative ring-2 ring-primary/20">
+                    <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-primary px-4 py-1 rounded-full text-white text-sm font-bold">POPULAR</div>
+                    <h3 class="text-2xl font-bold text-white mb-4">Trenchless Repair</h3>
+                    <p class="text-4xl font-bold text-primary mb-4">$3,000-6,000</p>
+                    <ul class="space-y-3 text-gray-400 mb-8">
+                        <li class="flex items-center gap-2">
+                            <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            Minimal excavation
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            Pipe lining/bursting
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            10-year warranty
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Pricing 3 -->
+                <div class="bg-surface p-8 rounded-2xl border border-gray-800 hover:border-primary/50 transition-all duration-300">
+                    <h3 class="text-2xl font-bold text-white mb-4">Full Replacement</h3>
+                    <p class="text-4xl font-bold text-primary mb-4">$6,000-15,000</p>
+                    <ul class="space-y-3 text-gray-400 mb-8">
+                        <li class="flex items-center gap-2">
+                            <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            Complete line replacement
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            Modern materials
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            Lifetime warranty
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mt-16 bg-primary/10 border border-primary/30 rounded-2xl p-8 text-center">
+                <p class="text-gray-300 mb-4">Prices vary based on specific conditions and extent of damage. All estimates include labor, materials, and cleanup.</p>
+                <p class="text-gray-400 text-sm">We accept cash, check, credit cards, and offer financing options. Ask about our seasonal promotions!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-24 relative bg-gray-900 border-y border-gray-800" style="background-image: url('https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80'); background-size: cover; background-position: center; background-attachment: fixed;">
+        <div class="absolute inset-0 bg-gradient-to-r from-[#1A1A1A]/95 to-[#1A1A1A]/80"></div>
+        <div class="max-w-7xl mx-auto px-6 md:px-12 relative z-10 text-center">
+            <h2 class="text-4xl md:text-6xl font-bold text-white mb-8">Ready to Solve Your Sewer Issues?</h2>
+            <p class="text-xl text-gray-300 mb-10 max-w-2xl mx-auto">Contact Frisco's trusted sewer repair specialists today. Same-day service available. No hidden fees. Guaranteed results.</p>
+            <a href="https://222.com" class="inline-block bg-primary hover:bg-red-500 text-white text-lg font-bold px-12 py-4 rounded-full transition-all duration-300 hover:shadow-2xl hover:scale-105">
+                Schedule Your Inspection Today
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-gray-300 py-16 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-4 gap-12">
+            
+            <!-- Brand Column -->
+            <div class="space-y-6">
+                <a href="index.html" class="text-2xl font-bold text-white flex items-center gap-2">
+                    <span class="text-primary"><i class="fas fa-tools"></i></span>
+                    Plano Plumbing
+                </a>
+                <p class="text-gray-500 text-sm leading-relaxed">
+                    Dedicated sewer and plumbing experts serving the Plano, Texas community with speed, integrity, and guaranteed results.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-gray-500 hover:text-white transition-colors"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-gray-500 hover:text-white transition-colors"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-gray-500 hover:text-white transition-colors"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-gray-500 hover:text-white transition-colors"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <!-- Contact Column -->
+            <div>
+                <h4 class="text-white font-bold mb-6 uppercase tracking-wider text-sm">Contact Info</h4>
+                <ul class="space-y-4 text-sm">
+                    <li class="flex items-start gap-3">
+                        <i class="fas fa-map-marker-alt mt-1 text-primary"></i>
+                        <span>Spring Creek<br>Plano, Texas 75044<br>United States</span>
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <i class="fas fa-envelope text-primary"></i>
+                        <a href="mailto:admin@222.com" class="hover:text-primary transition-colors">admin@222.com</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Navigation Links Column (Strictly restricted) -->
+            <div>
+                <h4 class="text-white font-bold mb-6 uppercase tracking-wider text-sm">Navigate</h4>
+                <ul class="space-y-3 text-sm">
+                    <li><a href="index.html#services" class="hover:text-primary transition-colors">Services</a></li>
+                    <li><a href="contact.html" class="hover:text-primary transition-colors">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Legal Column (Strictly restricted) -->
+            <div>
+                 <h4 class="text-white font-bold mb-6 uppercase tracking-wider text-sm">Legal</h4>
+                 <ul class="space-y-3 text-sm">
+                    <li><a href="privacy.html" class="hover:text-primary transition-colors">Privacy Policy</a></li>
+                    <li><a href="terms.html" class="hover:text-primary transition-colors">Terms of Service</a></li>
+                 </ul>
+            </div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-6 md:px-12 mt-16 pt-8 border-t border-gray-900 text-center md:text-left flex flex-col md:flex-row justify-between items-center text-sm text-gray-600">
+            <p>&copy; 2025 Plano Plumbing. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Functionality -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile Menu Toggle
+            const mobileMenuButton = document.querySelector('.mobile-menu-button');
+            const mobileMenu = document.querySelector('.mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
