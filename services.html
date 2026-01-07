@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Our full range of sewer line and plumbing repair services in Plano, TX. Camera inspections, hydro jetting, and trenchless repair.">
+    <title>Our Services | Plano Plumbing</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#FF5A5F',    /* Coral Red */
+                        secondary: '#1A1A1A',  /* Dark Gray */
+                        accent: '#FFD166',     /* Warm Yellow */
+                        surface: '#262626',    /* Lighter Gray for cards */
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    borderRadius: {
+                        'xl': '1rem',
+                        '2xl': '1rem',
+                    },
+                    boxShadow: {
+                        'glow': '0 10px 40px rgba(0,0,0,0.1)',
+                        'glow-primary': '0 10px 40px rgba(255, 90, 95, 0.2)',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #1A1A1A;
+            color: #ffffff;
+        }
+        
+        .hero-pattern {
+            background-color: #1A1A1A;
+            background-image: radial-gradient(circle at 50% 50%, #262626 1px, transparent 1px);
+            background-size: 40px 40px;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-primary selection:text-white overflow-x-hidden flex flex-col min-h-screen">
+
+    <!-- Header (Logo + Back Link Only) -->
+    <header class="fixed w-full z-50 bg-[#1A1A1A]/95 backdrop-blur-sm border-b border-gray-800 transition-all duration-300">
+        <nav class="max-w-7xl mx-auto px-6 md:px-12 h-20">
+            <div class="flex items-center justify-between w-full h-full">
+                <!-- Logo -->
+                <a href="index.html" class="text-2xl font-bold tracking-tight text-white flex items-center gap-2 group">
+                    <span class="text-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-8 h-8 group-hover:rotate-12 transition-transform duration-300">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.703-.127 1.246.14 2.266 1.033 2.533 2.304.296 1.413-.538 2.809-1.875 3.197M17.03 11.083c-1.353.473-2.678 1.488-3.09 2.923M17.415 8.441l-6.19-5.13a2.158 2.158 0 00-3.14.39l-2.071 2.513a2.159 2.159 0 00.39 3.138l5.46 4.524M11.42 15.17l-1.396 1.696" />
+                        </svg>
+                    </span>
+                    Plano Plumbing
+                </a>
+                
+                <!-- Back Link -->
+                <a href="index.html" class="text-gray-300 hover:text-primary font-medium transition-colors duration-300 text-sm tracking-wide flex items-center gap-2">
+                    <i class="fas fa-arrow-left text-xs"></i> Back
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="relative pt-32 pb-16 md:pt-40 md:pb-20 overflow-hidden hero-pattern">
+        <div class="absolute top-0 right-0 -mr-20 w-96 h-96 bg-primary opacity-5 blur-3xl rounded-full pointer-events-none"></div>
+        <div class="max-w-7xl mx-auto px-6 md:px-12 text-center relative z-10">
+            <h1 class="text-4xl md:text-5xl font-bold text-white mb-6">Professional Services</h1>
+            <p class="text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
+                Comprehensive sewer and plumbing diagnostics, repair, and maintenance solutions specifically designed for Plano homes and businesses.
+            </p>
+        </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section class="py-12 md:py-20 bg-[#1A1A1A] flex-grow">
+        <div class="max-w-7xl mx-auto px-6 md:px-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Service 1: Camera Inspection -->
+                <div class="group bg-surface p-8 rounded-2xl border border-gray-800 hover:border-primary/50 transition-all duration-300 hover:shadow-glow-primary/10 hover:-translate-y-1">
+                    <div class="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Sewer Camera Inspection</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        We use high-definition fiber optic cameras to visually inspect underground lines. This non-invasive method allows us to pinpoint root intrusion, cracks, or clogs without digging.
+                    </p>
+                </div>
+
+                <!-- Service 2: Trenchless Repair -->
+                <div class="group bg-surface p-8 rounded-2xl border border-gray-800 hover:border-primary/50 transition-all duration-300 hover:shadow-glow-primary/10 hover:-translate-y-1">
+                    <div class="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 7.5l-2.25-1.313M21 7.5v2.25m0-2.25l-2.25 1.313M3 7.5l2.25-1.313M3 7.5l2.25 1.313M3 7.5v2.25m9 3l2.25-1.313M12 12.75l-2.25-1.313M12 12.75V15m0 6.75l2.25-1.313M12 21.75V19.5m0 2.25l-2.25-1.313m0-16.875L12 2.25l2.25 1.313M21 14.25v2.25l-2.25 1.313m-13.5 0L3 16.5v-2.25" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Trenchless Sewer Repair</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Save your landscape with our pipelining technology. We create a new, structural pipe within your existing damaged line, offering a durable solution with minimal disruption to your property.
+                    </p>
+                </div>
+
+                <!-- Service 3: Hydro Jetting -->
+                <div class="group bg-surface p-8 rounded-2xl border border-gray-800 hover:border-primary/50 transition-all duration-300 hover:shadow-glow-primary/10 hover:-translate-y-1">
+                    <div class="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M14.25 6.087c0-.355.186-.676.401-.959.221-.29.349-.634.349-1.003 0-1.036-1.007-1.875-2.25-1.875s-2.25.84-2.25 1.875c0 .369.128.713.349 1.003.215.283.401.604.401.959v0a.64.64 0 01-.657.643 48.39 48.39 0 01-4.163-.3c.186 1.613.293 3.25.315 4.907a.656.656 0 01-.658.663v0c-.355 0-.676-.186-.959-.401a1.647 1.647 0 00-1.003-.349c-1.036 0-1.875 1.007-1.875 2.25s.84 2.25 1.875 2.25c.369 0 .713-.128 1.003-.349.283-.215.604-.401.959-.401v0c.31 0 .555.26.532.57a48.039 48.039 0 01-.642 5.056c1.518.19 3.058.309 4.616.354a.64.64 0 00.663-.658v0c0-.355-.186-.676-.401-.959a1.647 1.647 0 00-.349-1.003c0-1.035 1.008-1.875 2.25-1.875 1.243 0 2.25.84 2.25 1.875 0 .369-.128.713-.349 1.003-.215.283-.4.604-.4.959v0c0 .333.277.599.61.58a48.1 48.1 0 005.427-.63 48.05 48.05 0 00.582-4.717.532.532 0 00-.533-.57v0c-.355 0-.676.186-.959.401-.29.221-.634.349-1.003.349-1.035 0-1.875-1.007-1.875-2.25s.84-2.25 1.875-2.25c.37 0 .713.128 1.003.349.283.215.604.401.959.401v0a.656.656 0 00.658-.663 48.422 48.422 0 00-.37-5.36c-1.886.342-3.81.574-5.766.689a.578.578 0 01-.61-.58v0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Hydro Jetting</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Restore your pipes to near-new condition with high-pressure water jetting. This method effectively blasts away grease buildup, scale, and stubborn obstructions that snakes can't reach.
+                    </p>
+                </div>
+
+                <!-- Service 4: Leak Detection -->
+                <div class="group bg-surface p-8 rounded-2xl border border-gray-800 hover:border-primary/50 transition-all duration-300 hover:shadow-glow-primary/10 hover:-translate-y-1">
+                    <div class="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Precision Leak Detection</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Water leaks can cause massive structural damage. Our licensed experts use advanced acoustic and thermal technology to locate hidden slab leaks and pipe breaks accurately.
+                    </p>
+                </div>
+
+                <!-- Service 5: Cast Iron Descaling -->
+                <div class="group bg-surface p-8 rounded-2xl border border-gray-800 hover:border-primary/50 transition-all duration-300 hover:shadow-glow-primary/10 hover:-translate-y-1">
+                    <div class="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M10.343 3.94c.09-.542.56-.94 1.11-.94h1.093c.55 0 1.02.398 1.11.94l.149.894c.07.424.384.764.78.93.398.164.855.142 1.205-.108l.737-.527a1.125 1.125 0 011.45.12l.773.774c.39.389.44 1.002.12 1.45l-.527.737c-.25.35-.272.806-.107 1.204.165.397.505.71.93.78l.893.15c.543.09.94.56.94 1.109v1.094c0 .55-.397 1.02-.94 1.11l-.893.149c-.425.07-.765.383-.93.78-.165.398-.143.854.107 1.204l.527.738c.32.447.269 1.06-.12 1.45l-.774.773a1.125 1.125 0 01-1.449.12l-.738-.527c-.35-.25-.806-.272-1.203-.107-.397.165-.71.505-.781.929l-.149.894c-.09.542-.56.94-1.11.94h-1.094c-.55 0-1.019-.398-1.11-.94l-.148-.894c-.071-.424-.384-.764-.781-.93-.398-.164-.854-.142-1.204.108l-.738.527c-.447.32-1.06.269-1.45-.12l-.773-.774a1.125 1.125 0 01-.12-1.45l.527-.737c.25-.35.273-.806.108-1.204-.165-.397-.505-.71-.93-.78l-.894-.15c-.542-.09-.94-.56-.94-1.109v-1.094c0-.55.398-1.02.94-1.11l.894-.149c.424-.07.765-.383.93-.78.165-.398.143-.854-.107-1.204l-.527-.738a1.125 1.125 0 01.12-1.45l.773-.773a1.125 1.125 0 011.45-.12l.737.527c.35.25.807.272 1.204.107.397-.165.71-.505.78-.929l.15-.894z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Cast Iron Descaling</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        For older homes in Plano, rust and scale can narrow pipes. We thoroughly grind away corrosion to prolong the life of your cast iron sewer system without the need for expensive replacement.
+                    </p>
+                </div>
+
+                <!-- Service 6: 24/7 Emergency -->
+                <div class="group bg-surface p-8 rounded-2xl border border-gray-800 hover:border-primary/50 transition-all duration-300 hover:shadow-glow-primary/10 hover:-translate-y-1">
+                    <div class="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">24/7 Emergency Service</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Sewage backups are a health hazard. Our on-call team responds immediately, day or night, to clear back-ups, mitigate damage, and restore your plumbing to normal operation.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 relative overflow-hidden bg-[#1A1A1A]">
+        <div class="absolute inset-0 bg-primary/5"></div>
+        <div class="max-w-4xl mx-auto px-6 text-center relative z-10">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Need a Service That Isn't Listed?</h2>
+            <p class="text-xl text-gray-400 mb-10">
+                We handle all aspects of residential and commercial sewer repair. Contact us today for a free consultation.
+            </p>
+            <a href="contact.html" class="inline-flex items-center gap-2 bg-primary hover:bg-red-500 text-white text-lg font-semibold px-10 py-4 rounded-full transition-all duration-300 shadow-glow-primary hover:shadow-xl hover:scale-105">
+                Contact Us
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-surface border-t border-gray-800 pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-6 md:px-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+                <div class="col-span-1 md:col-span-2">
+                    <a href="index.html" class="text-2xl font-bold tracking-tight text-white flex items-center gap-2 mb-6">
+                        <span class="text-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-8 h-8">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.703-.127 1.246.14 2.266 1.033 2.533 2.304.296 1.413-.538 2.809-1.875 3.197M17.03 11.083c-1.353.473-2.678 1.488-3.09 2.923M17.415 8.441l-6.19-5.13a2.158 2.158 0 00-3.14.39l-2.071 2.513a2.159 2.159 0 00.39 3.138l5.46 4.524M11.42 15.17l-1.396 1.696" />
+                            </svg>
+                        </span>
+                        Plano Plumbing
+                    </a>
+                    <p class="text-gray-400 leading-relaxed max-w-sm">
+                        Plano's trusted experts in sewer line repair and replacement. Licensed, bonded, and insured professionals serving residential and commercial clients.
+                    </p>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-bold mb-6">Quick Links</h4>
+                    <ul class="space-y-4">
+                        <li><a href="index.html#services" class="text-gray-400 hover:text-primary transition-colors">Services</a></li>
+                        <li><a href="index.html#about" class="text-gray-400 hover:text-primary transition-colors">About Us</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-primary transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-bold mb-6">Contact</h4>
+                    <ul class="space-y-4 text-gray-400">
+                        <li class="flex items-center gap-3">
+                            <i class="fas fa-phone text-primary"></i> 24/7 Emergency Line
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fas fa-map-marker-alt text-primary"></i> Plano, TX
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
+                <p>&copy; 2023 Plano Plumbing. All rights reserved.</p>
+                <div class="flex gap-6">
+                    <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
+                    <a href="#" class="hover:text-white transition-colors">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
