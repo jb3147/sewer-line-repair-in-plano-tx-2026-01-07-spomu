@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="24/7 Emergency Sewer Line Service in Plano, TX. Rapid response team available around the clock to tackle urgent plumbing issues and prevent property damage by Plano Plumbing.">
+    <title>24/7 Emergency Sewer Service in Plano, TX | Plano Plumbing</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#FF5A5F',    /* Coral Red */
+                        secondary: '#1A1A1A',  /* Dark Gray */
+                        accent: '#FFD166',     /* Warm Yellow */
+                        surface: '#262626',    /* Lighter Gray for cards */
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    borderRadius: {
+                        'xl': '1rem',
+                        '2xl': '1rem',
+                    },
+                    boxShadow: {
+                        'glow': '0 10px 40px rgba(0,0,0,0.1)',
+                        'glow-primary': '0 10px 40px rgba(255, 90, 95, 0.2)',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #1A1A1A;
+            color: #ffffff;
+        }
+        
+        .gradient-text {
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: #ffffff;
+        }
+
+        .hero-pattern {
+            background-color: #1A1A1A;
+            background-image: radial-gradient(circle at 50% 50%, #262626 1px, transparent 1px);
+            background-size: 40px 40px;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-primary selection:text-white overflow-x-hidden">
+
+    <!-- Header -->
+    <header class="fixed w-full z-50 bg-[#1A1A1A]/95 backdrop-blur-sm border-b border-gray-800 transition-all duration-300">
+        <nav class="max-w-7xl mx-auto px-6 md:px-12 h-20 flex items-center justify-between">
+            <!-- Logo -->
+            <a href="index.html" class="text-2xl font-bold tracking-tight text-white flex items-center gap-2 group">
+                <span class="text-primary">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-8 h-8 group-hover:rotate-12 transition-transform duration-300">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.703-.127 1.246.14 2.266 1.033 2.533 2.304.296 1.413-.538 2.809-1.875 3.197M17.03 11.083c-1.353.473-2.678 1.488-3.09 2.923M17.415 8.441l-6.19-5.13a2.158 2.158 0 00-3.14.39l-2.071 2.513a2.159 2.159 0 00.39 3.138l5.46 4.524M11.42 15.17l-1.396 1.696" />
+                    </svg>
+                </span>
+                Plano Plumbing
+            </a>
+
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex items-center space-x-10">
+                <a href="index.html#services" class="text-gray-300 hover:text-primary font-medium transition-colors duration-300 text-sm tracking-wide">SERVICES</a>
+                <a href="index.html#about" class="text-gray-300 hover:text-primary font-medium transition-colors duration-300 text-sm tracking-wide">ABOUT</a>
+                <a href="index.html#reviews" class="text-gray-300 hover:text-primary font-medium transition-colors duration-300 text-sm tracking-wide">REVIEWS</a>
+                <a href="index.html#faq" class="text-gray-300 hover:text-primary font-medium transition-colors duration-300 text-sm tracking-wide">FAQ</a>
+                <a href="contact.html" class="bg-primary hover:bg-red-500 text-white px-6 py-2.5 rounded-full font-semibold transition-all duration-300 hover:shadow-lg hover:shadow-primary/30 transform hover:scale-105 text-sm">
+                    Contact Us
+                </a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button class="md:hidden mobile-menu-button text-gray-300 hover:text-white p-2 focus:outline-none transition-colors duration-200">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </nav>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu hidden md:hidden bg-[#1A1A1A] border-t border-gray-800 absolute w-full left-0 top-20 shadow-2xl">
+            <div class="flex flex-col px-6 py-8 space-y-6 text-center">
+                <a href="index.html#services" class="text-lg font-medium text-gray-300 hover:text-primary transition-colors">Services</a>
+                <a href="index.html#about" class="text-lg font-medium text-gray-300 hover:text-primary transition-colors">About</a>
+                <a href="index.html#reviews" class="text-lg font-medium text-gray-300 hover:text-primary transition-colors">Reviews</a>
+                <a href="index.html#faq" class="text-lg font-medium text-gray-300 hover:text-primary transition-colors">FAQ</a>
+                <a href="contact.html" class="text-lg font-bold text-primary hover:text-white transition-colors">Contact Us</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-16 md:pt-40 md:pb-20 bg-[#1A1A1A]">
+        <div class="absolute top-10 right-0 -mr-20 w-72 h-72 bg-primary opacity-10 blur-3xl rounded-full pointer-events-none"></div>
+        
+        <div class="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
+            <div class="text-center max-w-3xl mx-auto space-y-6">
+                <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-surface border border-gray-700">
+                    <span class="w-2 h-2 rounded-full bg-red-500 animate-pulse"></span>
+                    <span class="text-xs font-semibold tracking-wide text-gray-300 uppercase">Always Available</span>
+                </div>
+                
+                <h1 class="text-4xl md:text-5xl font-bold leading-tight tracking-tight text-white">
+                    24/7 Emergency <span class="text-primary">Sewer Service</span>
+                </h1>
+                
+                <p class="text-lg text-gray-400 font-normal leading-relaxed">
+                    When disaster strikes your plumbing, we're there in minutes. Round-the-clock emergency response to prevent property damage and restore your peace of mind.
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-4 justify-center pt-4">
+                    <a href="contact.html" class="bg-primary hover:bg-red-500 text-white text-lg font-semibold px-10 py-3 rounded-full transition-all duration-300 shadow-glow-primary hover:shadow-xl hover:scale-105 flex items-center justify-center gap-2">
+                        <span>Get Emergency Help</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                        </svg>
+                    </a>
+                    <a href="#process" class="bg-surface hover:bg-gray-700 text-white text-lg font-semibold px-10 py-3 rounded-full border border-gray-700 transition-all duration-300 hover:shadow-lg hover:scale-105">
+                        How It Works
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Overview Section -->
+    <section class="py-20 md:py-28 bg-surface">
+        <div class="max-w-4xl mx-auto px-6 md:px-12">
+            <div class="space-y-8">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">What Is 24/7 Emergency Service?</h2>
+                    <p class="text-lg text-gray-300 leading-relaxed mb-4">
+                        Our 24/7 Emergency Service is a dedicated rapid-response program designed to address urgent sewer and plumbing crises whenever they occur—day, night, weekends, or holidays. When you call Plano Plumbing during an emergency, you're connected directly with our on-call specialists who can diagnose and resolve your issue quickly, minimizing damage to your property and restoring normal function to your home or business.
+                    </p>
+                    <p class="text-lg text-gray-300 leading-relaxed">
+                        We maintain a fleet of fully equipped emergency vehicles and a rotating team of licensed technicians who are ready to roll at a moment's notice. Whether it's a catastrophic sewer backup, a burst pipe, or a sudden leak, we understand that plumbing emergencies don't follow business hours—and neither do we.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="text-2xl font-bold text-white mb-4">Who Is This Service Ideal For?</h3>
+                    <p class="text-lg text-gray-300 leading-relaxed">
+                        This service is perfect for homeowners and business owners in Plano who want immediate access to professional plumbing expertise during critical situations. If you've ever experienced a late-night sewer backup or a weekend pipe burst, you understand the panic and urgency. Our 24/7 Emergency Service is for anyone who values speed, reliability, and peace of mind when plumbing disasters strike.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="text-2xl font-bold text-white mb-4">The Problem It Solves</h3>
+                    <p class="text-lg text-gray-300 leading-relaxed">
+                        Plumbing emergencies cause immediate stress, property damage, and health hazards. Without fast professional intervention, a minor issue can escalate into thousands of dollars in repairs. Our 24/7 Emergency Service eliminates the panic of finding help at 2 AM or on a holiday. We're always available, always ready, and always professional—ensuring that your emergency gets the immediate attention it deserves before damage compounds.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-20 md:py-28 bg-[#1A1A1A]">
+        <div class="max-w-7xl mx-auto px-6 md:px-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-white text-center mb-16">Why Choose Our Emergency Service</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Benefit 1 -->
+                <div class="group bg-surface p-8 rounded-2xl border border-gray-800 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
+                    <div class="w-12 h-12 bg-primary/20 rounded-xl flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-3">Minutes, Not Hours</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Our emergency response team arrives faster than traditional plumbers. We prioritize your call and dispatch the nearest available technician immediately.
+                    </p>
+                </div>
+
+                <!-- Benefit 2 -->
+                <div class="group bg-surface p-8 rounded-2xl border border-gray-800 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
+                    <div class="w-12 h-12 bg-primary/20 rounded-xl flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-3">Licensed & Certified</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        All our emergency technicians are fully licensed, insured, and trained in the latest emergency repair protocols to handle any crisis.
+                    </p>
+                </div>
+
+                <!-- Benefit 3 -->
+                <div class="group bg-surface p-8 rounded-2xl border border-gray-800 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
+                    <div class="w-12 h-12 bg-primary/20 rounded-xl flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M10.125 2.25h-4.5c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125v-9M10.125 2.25h.375a9 9 0 019 9v.375M10.125 2.25A3.375 3.375 0 0113.5 5.25v1.5c0 .621.504 1.125 1.125 1.125h1.5a3.375 3.375 0 013.375 3.375M9 15l2.25 2.25L15 12" />
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-3">Transparent Pricing</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        No surprise charges. We provide upfront cost estimates before work begins, even during emergencies, so you know exactly what to expect.
+                    </p>
+                </div>
+
+                <!-- Benefit 4 -->
+                <div class="group bg-surface p-8 rounded-2xl border border-gray-800 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
+                    <div class="w-12 h-12 bg-primary/20 rounded-xl flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-3">Peace of Mind</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Sleep soundly knowing that professional help is just one phone call away, any time of day or night, 365 days a year.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="process" class="py-20 md:py-28 bg-surface">
+        <div class="max-w-4xl mx-auto px-6 md:px-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-white text-center mb-16">How Our Emergency Service Works</h2>
+            
+            <div class="space-y-8">
+                <!-- Step 1 -->
+                <div class="flex gap-8">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-full bg-primary text-white font-bold text-lg">
+                            1
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-white mb-2">Call Us Immediately</h3>
+                        <p class="text-gray-300 leading-relaxed">
+                            Reach our 24/7 emergency hotline as soon as you notice a plumbing crisis. Our trained dispatcher will ask key questions to understand the severity and type of emergency, allowing us to dispatch the right technician with the right equipment.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="flex gap-8">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-full bg-primary text-white font-bold text-lg">
+                            2
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-white mb-2">Rapid Dispatch</h3>
+                        <p class="text-gray-300 leading-relaxed">
+                            We immediately dispatch the nearest available emergency technician to your location. You'll receive a call with an estimated arrival time so you know exactly when help is coming.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="flex gap-8">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-full bg-primary text-white font-bold text-lg">
+                            3
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-white mb-2">On-Site Assessment</h3>
+                        <p class="text-gray-300 leading-relaxed">
+                            Our technician arrives with a fully stocked emergency vehicle and performs a thorough diagnosis of your problem using advanced diagnostic tools. We'll explain what we found and provide you with repair options and pricing.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="flex gap-8">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-full bg-primary text-white font-bold text-lg">
+                            4
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-white mb-2">Immediate Repair</h3>
+                        <p class="text-gray-300 leading-relaxed">
+                            Once you approve, we begin work immediately to stop the emergency and prevent further damage. Our technicians work efficiently to restore your plumbing to full function, keeping you informed throughout the process.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Step 5 -->
+                <div class="flex gap-8">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-full bg-primary text-white font-bold text-lg">
+                            5
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-white mb-2">Follow-Up & Warranty</h3>
+                        <p class="text-gray-300 leading-relaxed">
+                            We clean up the work area completely and provide you with documentation of what was done. Your repair is backed by our warranty, and we're available for any follow-up questions or concerns.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What's Included Section -->
+    <section class="py-20 md:py-28 bg-[#1A1A1A]">
+        <div class="max-w-4xl mx-auto px-6 md:px-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-12">What's Included in Our 24/7 Emergency Service</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Included Items -->
+                <div class="space-y-4">
+                    <h3 class="text-xl font-bold text-white mb-6">Service Includes:</h3>
+                    
+                    <div class="flex items-start gap-4">
+                        <svg class="w-6 h-6 text-accent flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <div>
+                            <p class="text-white font-semibold">Round-the-Clock Availability</p>
+                            <p class="text-gray-400 text-sm">Available 24/7/365 with no waiting periods</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-4">
+                        <svg class="w-6 h-6 text-accent flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <div>
+                            <p class="text-white font-semibold">Emergency Response Within Minutes</p>
+                            <p class="text-gray-400 text-sm">Rapid dispatch to minimize property damage</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-4">
+                        <svg class="w-6 h-6 text-accent flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <div>
+                            <p class="text-white font-semibold">Professional Diagnosis</p>
+                            <p class="text-gray-400 text-sm">Advanced camera inspection and leak detection</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-4">
+                        <svg class="w-6 h-6 text-accent flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <div>
+                            <p class="text-white font-semibold">Immediate Damage Prevention</p>
+                            <p class="text-gray-400 text-sm">Stop backups, leaks, and floods before they worsen</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-4">
+                        <svg class="w-6 h-6 text-accent flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <div>
+                            <p class="text-white font-semibold">Fully Stocked Emergency Vehicles</p>
+                            <p class="text-gray-400 text-sm">Most repairs completed on first visit</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-4">
+                        <svg class="w-6 h-6 text-accent flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <div>
+                            <p class="text-white font-semibold">Upfront Pricing & Estimates</p>
+                            <p class="text-gray-400 text-sm">No hidden fees or surprise charges</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-4">
+                        <svg class="w-6 h-6 text-accent flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <div>
+                            <p class="text-white font-semibold">Work Warranty & Guarantee</p>
+                            <p class="text-gray-400 text-sm">All repairs backed by our satisfaction guarantee</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Not Included -->
+                <div class="space-y-4">
+                    <h3 class="text-xl font-bold text-white mb-6">What's NOT Included:</h3>
+                    
+                    <div class="flex items-start gap-4">
+                        <svg class="w-6 h-6 text-gray-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                        <div>
+                            <p class="text-gray-400 font-semibold">Cosmetic or Non-Emergency Repairs</p>
+                            <p class="text-gray-500 text-sm">Scheduled maintenance should be booked in advance</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-4">
+                        <svg class="w-6 h-6 text-gray-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                        <div>
+                            <p class="text-gray-400 font-semibold">Work Outside Service Area</p>
+                            <p class="text-gray-500 text-sm">Emergency service covers Plano and immediate surrounding areas</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-4">
+                        <svg class="w-6 h-6 text-gray-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                        <div>
+                            <p class="text-gray-400 font-semibold">General Contractor Services</p>
+                            <p class="text-gray-500 text-sm">We handle plumbing only; other trades require separate contractors</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-4">
+                        <svg class="w-6 h-6 text-gray-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                        <div>
+                            <p class="text-gray-400 font-semibold">Damage Not Related to Plumbing</p>
+                            <p class="text-gray-500 text-sm">We repair plumbing issues; other damage claims should go to insurance</p>
+                        </div>
+                    </div>
+
+                    <p class="text-gray-400 text-sm pt-6 border-t border-gray-700">
+                        <strong>Note:</strong> Emergency service fees may apply for calls outside standard business hours. Contact us for details on our emergency surcharge policy and how to minimize costs.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="py-24 relative bg-gray-900 border-y border-gray-800" style="background-image: url('https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80'); background-size: cover; background-position: center; background-attachment: fixed;">
+        <div class="absolute inset-0 bg-gradient-to-r from-[#1A1A1A]/95 to-[#1A1A1A]/80"></div>
+        <div class="max-w-4xl mx-auto px-6 md:px-12 relative z-10 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">Don't Wait for Business Hours</h2>
+            <p class="text-xl text-gray-300 mb-10">
+                Plumbing emergencies demand immediate professional attention. Our 24/7 response team is standing by to tackle your crisis right now, protecting your property and restoring your peace of mind.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="contact.html" class="inline-block bg-primary hover:bg-red-500 text-white text-lg font-bold px-12 py-4 rounded-full transition-all duration-300 hover:shadow-2xl hover:scale-105">
+                    Get Emergency Help Now
+                </a>
+                <a href="tel:+1234567890" class="inline-block bg-surface hover:bg-gray-700 text-white text-lg font-bold px-12 py-4 rounded-full border border-gray-700 transition-all duration-300 hover:shadow-lg hover:scale-105">
+                    Call Us: (XXX) XXX-XXXX
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-gray-300 py-16 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-4 gap-12">
+            
+            <!-- Brand Column -->
+            <div class="space-y-6">
+                <a href="index.html" class="text-2xl font-bold text-white flex items-center gap-2">
+                    <span class="text-primary"><i class="fas fa-tools"></i></span>
+                    Plano Plumbing
+                </a>
+                <p class="text-gray-500 text-sm leading-relaxed">
+                    Dedicated sewer and plumbing experts serving the Plano, Texas community with speed, integrity, and guaranteed results.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-gray-500 hover:text-white transition-colors"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-gray-500 hover:text-white transition-colors"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-gray-500 hover:text-white transition-colors"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-gray-500 hover:text-white transition-colors"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <!-- Contact Column -->
+            <div>
+                <h4 class="text-white font-bold mb-6 uppercase tracking-wider text-sm">Contact Info</h4>
+                <ul class="space-y-4 text-sm">
+                    <li class="flex items-start gap-3">
+                        <i class="fas fa-map-marker-alt mt-1 text-primary"></i>
+                        <span>Spring Creek<br>Plano, Texas 75044<br>United States</span>
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <i class="fas fa-envelope text-primary"></i>
+                        <a href="mailto:admin@222.com" class="hover:text-primary transition-colors">admin@222.com</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Navigation Links Column -->
+            <div>
+                <h4 class="text-white font-bold mb-6 uppercase tracking-wider text-sm">Navigate</h4>
+                <ul class="space-y-3 text-sm">
+                    <li><a href="index.html#services" class="hover:text-primary transition-colors">Services</a></li>
+                    <li><a href="contact.html" class="hover:text-primary transition-colors">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Legal Column -->
+            <div>
+                <h4 class="text-white font-bold mb-6 uppercase tracking-wider text-sm">Legal</h4>
+                <ul class="space-y-3 text-sm">
+                    <li><a href="privacy.html" class="hover:text-primary transition-colors">Privacy Policy</a></li>
+                    <li><a href="terms.html" class="hover:text-primary transition-colors">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-6 md:px-12 mt-16 pt-8 border-t border-gray-900 text-center md:text-left flex flex-col md:flex-row justify-between items-center text-sm text-gray-600">
+            <p>&copy; 2025 Plano Plumbing. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Functionality -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile Menu Toggle
+            const mobileMenuButton = document.querySelector('.mobile-menu-button');
+            const mobileMenu = document.querySelector('.mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
